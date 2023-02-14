@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCT9001SD
+D Transistor Output Optocouplers
+K
+F https://www.onsemi.com/pub/Collateral/MCT9001-D.pdf
+$ENDCMP
+#
+#End Doc Library
