@@ -1,6 +1,7 @@
 Bypass caps for mainly 7805
-Motor encoder circuitry, logic shifting, etc
-THT MCT9001?
-Jumper/solder bridge to set MCT9001s to 5V
+Motor encoder circuitry, logic shifting, etc WIP
+Current monitors
+###THT MCT9001?
+###Jumper/solder bridge to set MCT9001s to 5V
 
 Document pinout and features, especially the ADC is somewhat counter-intuitive
