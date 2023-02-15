@@ -1660,7 +1660,7 @@
     (property "Value" "LTC1298CS8-PBF" (id 1) (at 129.54 147.32 0)
       (effects (font (size 1.524 1.524)))
     )
-    (property "Footprint" "SO-8_S_LIT" (id 2) (at 129.54 168.656 0)
+    (property "Footprint" "footprints:LTC1298CS8-PBF" (id 2) (at 129.54 168.656 0)
       (effects (font (size 1.524 1.524)) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 162.56 0)
@@ -2017,7 +2017,7 @@
     (property "Value" "3.3k" (id 1) (at 93.98 153.67 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "" (id 2) (at 94.488 153.67 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 94.488 153.67 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 92.71 153.67 0)
@@ -2772,7 +2772,7 @@
     (uuid e4f98602-ff42-406f-aff2-6aab18d58ebb)
     (property "Reference" "R22" (id 0) (at 101.6 151.13 90))
     (property "Value" "1.7k" (id 1) (at 101.6 153.67 90))
-    (property "Footprint" "" (id 2) (at 100.33 155.702 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" (id 2) (at 100.33 155.702 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 100.33 157.48 0)
@@ -2989,7 +2989,7 @@
       (reference "IC5") (unit 1) (value "MCT9001SD") (footprint "MCT9001:SOP254P1016X385-8N")
     )
     (path "/24e72518-d87c-4a77-a932-4000c7b6be55"
-      (reference "IC6") (unit 1) (value "LTC1298CS8-PBF") (footprint "SO-8_S_LIT")
+      (reference "IC6") (unit 1) (value "LTC1298CS8-PBF") (footprint "footprints:LTC1298CS8-PBF")
     )
     (path "/47e07bf5-f704-4a6a-8706-99bf0d77d2a8"
       (reference "J1") (unit 1) (value "RJ45_LED") (footprint "Connector_RJ:RJ45_Amphenol_RJHSE538X")
@@ -3058,10 +3058,10 @@
       (reference "R20") (unit 1) (value "2k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/6de4532b-e9e0-4a36-b9b7-cc0ceb1559fe"
-      (reference "R21") (unit 1) (value "3.3k") (footprint "")
+      (reference "R21") (unit 1) (value "3.3k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/e4f98602-ff42-406f-aff2-6aab18d58ebb"
-      (reference "R22") (unit 1) (value "1.7k") (footprint "")
+      (reference "R22") (unit 1) (value "1.7k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal")
     )
     (path "/cb20d2a1-05a5-401a-9981-368013b11a84"
       (reference "U1") (unit 1) (value "Pico") (footprint "MCU_RaspberryPi_and_Boards:RPi_Pico_SMD_TH")
