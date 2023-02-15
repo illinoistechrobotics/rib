@@ -2406,9 +2406,6 @@
   )
 
   (gr_rect (start 102.87 110.49) (end 231.14 44.45) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 21329c4a-836f-4c98-a184-22af9d720716))
-  (gr_text "TODO: Encoder logic & connections" (at 210.82 104.14) (layer "F.SilkS") (tstamp 475e3687-5aed-4dde-8154-a03a4e531f98)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
 
   (segment (start 107.72 91.14) (end 107.95 90.91) (width 0.25) (layer "F.Cu") (net 1) (tstamp 879af5e3-7a17-4fd9-8b15-2d60eadc7d99))
   (segment (start 107.72 96.52) (end 107.72 91.14) (width 0.25) (layer "F.Cu") (net 1) (tstamp 8d76ed2d-ba75-40f0-ba36-7890719692ce))
