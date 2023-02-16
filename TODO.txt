@@ -5,3 +5,4 @@ Current monitors
 ###Jumper/solder bridge to set MCT9001s to 5V
 
 Document pinout and features, especially the ADC is somewhat counter-intuitive
+XBee support
