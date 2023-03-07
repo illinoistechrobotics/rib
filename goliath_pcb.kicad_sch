@@ -6918,7 +6918,7 @@
     (property "Value" "1uF" (id 1) (at 257.81 177.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "STP2N80K5:STP2N80K5" (id 2) (at 254.9652 180.34 0)
+    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" (id 2) (at 254.9652 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 254 176.53 0)
@@ -7898,7 +7898,7 @@
       (reference "#PWR0138") (unit 1) (value "GND") (footprint "")
     )
     (path "/c16487bb-097e-43a5-931b-34a996e06ac6"
-      (reference "C1") (unit 1) (value "1uF") (footprint "STP2N80K5:STP2N80K5")
+      (reference "C1") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
     )
     (path "/fe4ab8e8-5d62-441c-a62e-555fc182dff0"
       (reference "C2") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
