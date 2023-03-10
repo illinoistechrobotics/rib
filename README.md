@@ -1,6 +1,6 @@
-# Illinois Tech Robotics - Robot Interface Board
+# Illinois Tech Robotics - Robot Interface Board (RIB)
 
-This is a work-in-progress PCB design based around the existing goliath protoboards, but adapted to work with a Raspberry Pi Pico (W), but is also usable with other designs using solder bridge jumpers to support various configurations. 
+This is a PCB design based around the existing goliath protoboards, but adapted to work with a Raspberry Pi Pico (W), but is also usable with other designs using solder bridge jumpers to support various configurations. 
 
 The majority of the circuitry allows connecting 2 OSMC's (Open Source Motor Controller) v3.22 over RJ45. They are wired with pin 2 through 9, as CAT6 only has 8 conductors and pin 1 and 10 are the same as 2 and 9 respectively, in this case we don't need the increased current offered by the extra pins.
 
