@@ -6263,7 +6263,7 @@
   (gr_text "5V  3v3" (at 68.5 72.2 90) (layer "B.SilkS") (tstamp 609cc083-53fb-4043-9d92-116ee92cc5ed)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
-  (gr_text "Designed by \nAmelia Deck\nfor ILLINOIS TECH ROBOTICS\nRobot Interfacing Board (RIB)\nV1.0-RC1\n\ninspired by GOLIATH design\nby Nash Kaminski\n\nwith help from\nScarlett Kadan\nIliyan Jivraj" (at 155.65 114.65) (layer "B.SilkS") (tstamp 6a8214cd-a29d-4d52-b170-47d4f9324537)
+  (gr_text "Designed by \nAmelia Deck\nfor ILLINOIS TECH ROBOTICS\nRobot Interface Board (RIB)\nV1.0-RC1\n\ninspired by GOLIATH design\nby Nash Kaminski\n\nwith help from\nScarlett Kadan\nIliyan Jivraj" (at 155.65 114.65) (layer "B.SilkS") (tstamp 6a8214cd-a29d-4d52-b170-47d4f9324537)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_text "ENABLE VOUT" (at 71.5 60.2) (layer "B.SilkS") (tstamp 751beb4c-8ea1-4992-b74d-c5682e17cdd3)
