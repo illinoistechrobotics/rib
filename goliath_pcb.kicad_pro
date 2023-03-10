@@ -392,7 +392,8 @@
         "name": "hipwr",
         "nets": [
           "5V",
-          "VIN"
+          "VIN",
+          "VIN_PRE"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
