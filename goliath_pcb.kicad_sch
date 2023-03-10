@@ -6955,10 +6955,10 @@
     (property "Reference" "L1" (id 0) (at 337.82 124.4599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "82uH" (id 1) (at 337.82 126.9999 0)
+    (property "Value" "120uH" (id 1) (at 337.82 126.9999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Inductor_THT:L_Axial_L6.6mm_D2.7mm_P10.16mm_Horizontal_Vishay_IM-2" (id 2) (at 336.55 125.73 0)
+    (property "Footprint" "Inductor_THT_AKL:L_Radial_D12.5mm_P7.00mm_Fastron_09HCP" (id 2) (at 336.55 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 336.55 125.73 0)
@@ -7152,7 +7152,7 @@
     (property "Value" "22uF" (id 1) (at 326.39 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" (id 2) (at 333.7052 109.22 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (id 2) (at 333.7052 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 332.74 105.41 0)
@@ -8052,7 +8052,7 @@
     (property "Reference" "C5" (id 0) (at 387.35 133.3499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "13uF" (id 1) (at 387.35 135.8899 0)
+    (property "Value" "10uF" (id 1) (at 387.35 135.8899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm" (id 2) (at 384.5052 138.43 0)
@@ -8505,10 +8505,10 @@
       (reference "C3") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
     )
     (path "/acb13b87-e574-4b2c-9fa0-481a55b275f4"
-      (reference "C4") (unit 1) (value "22uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
+      (reference "C4") (unit 1) (value "22uF") (footprint "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm")
     )
     (path "/f1e5e1aa-d5e8-4580-b07c-74df91c7de8f"
-      (reference "C5") (unit 1) (value "13uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
+      (reference "C5") (unit 1) (value "10uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
     )
     (path "/c3cf2e80-bcc4-4f1a-97b6-1147f3bd1daf"
       (reference "C6") (unit 1) (value "1uF") (footprint "Capacitor_THT:C_Rect_L7.0mm_W4.5mm_P5.00mm")
@@ -8613,7 +8613,7 @@
       (reference "JP4") (unit 1) (value "SolderJumper_2_Open") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm")
     )
     (path "/988f1dad-6d98-48c9-a5f9-8b3c8fc49edf"
-      (reference "L1") (unit 1) (value "82uH") (footprint "Inductor_THT:L_Axial_L6.6mm_D2.7mm_P10.16mm_Horizontal_Vishay_IM-2")
+      (reference "L1") (unit 1) (value "120uH") (footprint "Inductor_THT_AKL:L_Radial_D12.5mm_P7.00mm_Fastron_09HCP")
     )
     (path "/ca5671af-d549-43bf-bac5-65bba152b15c"
       (reference "OC1") (unit 1) (value "MCT9001") (footprint "Package_DIP:DIP-8_W7.62mm_Socket")
