@@ -358,7 +358,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "goliath_pcb.kicad_pro",
+    "filename": "rib.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -391,9 +391,7 @@
         "microvia_drill": 0.1,
         "name": "hipwr",
         "nets": [
-          "5V",
-          "VIN",
-          "VIN_PRE"
+          "5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -413,11 +411,36 @@
         "microvia_drill": 0.1,
         "name": "medpwr",
         "nets": [
+          "3.3V",
           "LGV"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.325,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "medpwrplus",
+        "nets": [
+          "PWRIN1",
+          "PWRIN2",
+          "PWRIN3",
+          "VIN",
+          "VIN_PRE"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.35,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
