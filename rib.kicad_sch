@@ -8303,7 +8303,7 @@
     (uuid 63087395-688c-4043-806a-33356104a228)
     (property "Reference" "D9" (id 0) (at 365.76 224.79 0))
     (property "Value" "LED_RKBG" (id 1) (at 365.76 227.33 0))
-    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB" (id 2) (at 365.76 240.03 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins" (id 2) (at 365.76 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 365.76 240.03 0)
@@ -8714,7 +8714,7 @@
     (uuid 841fcbc3-9bb3-4695-a72b-2bcdbe5e5fed)
     (property "Reference" "D8" (id 0) (at 365.76 198.12 0))
     (property "Value" "LED_RKBG" (id 1) (at 365.76 200.66 0))
-    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB" (id 2) (at 365.76 213.36 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins" (id 2) (at 365.76 213.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 365.76 213.36 0)
@@ -9496,7 +9496,7 @@
     (uuid b8b5796e-31a3-463f-9b4a-ebd188f27515)
     (property "Reference" "D10" (id 0) (at 339.09 224.79 0))
     (property "Value" "LED_RKBG" (id 1) (at 339.09 227.33 0))
-    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB" (id 2) (at 339.09 240.03 0)
+    (property "Footprint" "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins" (id 2) (at 339.09 240.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 339.09 240.03 0)
@@ -10576,13 +10576,13 @@
       (reference "D7") (unit 1) (value "SB260") (footprint "Diode_THT_AKL:D_DO-15_P10.16mm_Horizontal")
     )
     (path "/841fcbc3-9bb3-4695-a72b-2bcdbe5e5fed"
-      (reference "D8") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB")
+      (reference "D8") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins")
     )
     (path "/63087395-688c-4043-806a-33356104a228"
-      (reference "D9") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB")
+      (reference "D9") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins")
     )
     (path "/b8b5796e-31a3-463f-9b4a-ebd188f27515"
-      (reference "D10") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB")
+      (reference "D10") (unit 1) (value "LED_RKBG") (footprint "LED_THT:LED_D5.0mm-4_RGB_Staggered_Pins")
     )
     (path "/46ae22cd-43b5-4b2f-bb6e-c4094d5bd302"
       (reference "H1") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_4.3mm_M4_Pad_Via")
