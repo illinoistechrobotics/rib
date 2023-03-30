@@ -1,2 +1,4 @@
 (sym_lib_table
+  (version 7)
+  (lib (name "LM3940")(type "Legacy")(uri "${KIPRJMOD}/lib/LM3940/LM3940.lib")(options "")(descr ""))
 )

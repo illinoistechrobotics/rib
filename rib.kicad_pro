@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.254
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -56,11 +56,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|114586086|79955056|cd3a9789-7d00-4fe2-8dca-1c98630cb7e9|a2325a36-60fe-4ba7-a888-ef7cd2f72a11",
-        "silk_over_copper|172372086|107715056|6d0c616d-f2d8-4020-b2f3-032968372e95|4d992585-a2a5-40d6-9cd0-d412775994be",
-        "silk_over_copper|172372086|123915056|94e7fca6-5442-4672-a428-226dd70878e5|18d8bc67-fa0c-438c-b375-b6d9565af495"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -538,11 +534,11 @@
         "pattern": "VIN_PRE"
       },
       {
-        "netclass": "medpwr",
+        "netclass": "medpwrplus",
         "pattern": "3.3V"
       },
       {
-        "netclass": "medpwr",
+        "netclass": "Default",
         "pattern": "LGV"
       }
     ]
