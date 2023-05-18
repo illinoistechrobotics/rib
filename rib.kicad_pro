@@ -46,7 +46,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 0.254
         }
       },
       "diff_pair_dimensions": [
@@ -57,6 +57,7 @@
         }
       ],
       "drc_exclusions": [
+        "footprint_type_mismatch|148590000|73529700|2dc5ee2b-e619-4d38-a225-9df5a17739a5|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|102275000|131250000|ce7cbc3a-e0f0-4e14-b959-33b7bdd2575e|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|102275000|52750000|cc271fea-d7fc-4ad8-88a2-79575b8d1f11|00000000-0000-0000-0000-000000000000",
         "items_not_allowed|103219581|128969581|4bbc93d3-e199-4654-bdad-ac318f8463a7|00000000-0000-0000-0000-000000000000",
@@ -134,7 +135,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "warning",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -603,6 +604,14 @@
       {
         "netclass": "hipwr",
         "pattern": "PWROUT"
+      },
+      {
+        "netclass": "hipwr",
+        "pattern": "MOSFET1"
+      },
+      {
+        "netclass": "hipwr",
+        "pattern": "MOSFET2"
       }
     ]
   },

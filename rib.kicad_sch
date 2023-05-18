@@ -10525,7 +10525,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 332.4352 97.79 0)
-      (effects (font (size 1.27 1.27)) hide)
+      (effects (font (size 1.27 1.27)))
     )
     (property "Datasheet" "~" (at 331.47 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
